@@ -145,7 +145,7 @@ h2:after {
 }
 
 .icon-big {
-    font-size: 350%;
+    font-size: 200%;
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
@@ -301,4 +301,20 @@ h2:after {
     height: 50px;
     margin-right: 10px;
 }
+/*----------------------------------------------*/
+/* cities                                  */
+/*----------------------------------------------*/
 
+.box img{
+    width: 40%;
+    height: auto;
+    margin-bottom: 15px;
+    float: left;
+}
+.city-feature{
+margin-bottom: 50px;
+
+}
+.icon-small{
+    color: #e67e22;
+}

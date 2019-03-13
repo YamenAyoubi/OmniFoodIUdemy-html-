@@ -166,7 +166,8 @@ h2:after {
 
     border-bottom: 2px #e67e22 solid;
 }
-.section-features .long-copy{
+
+.section-features .long-copy {
     margin-bottom: 30px;
 }
 
@@ -196,13 +197,22 @@ h2:after {
     background-color: #cf6d17;
     color: white;
 }
+.clearfix{zoom:1}
+.clearfix::after{
+    content:" ";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
 
+}
 /*----------------------------------------------*/
 /* Meals                                  */
 /*----------------------------------------------*/
-.section-meals{
+.section-meals {
     padding: 0%;
 }
+
 .meals-showcase {
     list-style: none;
     width: 100%;
@@ -232,8 +242,63 @@ h2:after {
 
 }
 
-.meal-photo img:hover{
-opacity: 1;
+.meal-photo img:hover {
+    opacity: 1;
     transform: scale(1.03);
+}
+
+/*----------------------------------------------*/
+/* how it works                                  */
+/*----------------------------------------------*/
+.section-steps{
+    background-color: azure;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 50%;
 
 }
+
+.works-steps {
+    margin-bottom: 50px;
+}
+
+.works-steps:last-of-type {
+
+    margin-bottom: 80px;
+}
+
+.works-steps div {
+
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+
+}
+
+.btn-app img {
+
+    width: auto;
+    height: 50px;
+    margin-right: 10px;
+}
+
